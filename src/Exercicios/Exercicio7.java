@@ -23,7 +23,37 @@ public class Exercicio7 {
 		System.out.println("Informe o valor da altura: ");
 		altura = leia.nextFloat();
 		
-		if(base > 0 && altura > 0)
+		if(base > 0)
+		{
+			if(altura > 0)
+			{
+				area = (base + altura) / 2;
+				System.out.println("--------> ÁREA = " + area);
+			}
+			else
+			{
+				System.out.println("Número inválido! Informe novamente o valor da altura: ");
+				altura = leia.nextFloat();
+				
+				area = (base + altura) / 2;
+				System.out.println("--------> ÁREA = " + area);
+			}
+		}
+		else
+		{
+			System.out.println("Número inválido! Informe novamente o valor da base: ");
+			base = leia.nextFloat();
+			
+			area = (base + altura) / 2;
+			System.out.println("--------> ÁREA = " + area);
+			
+			
+		}
+		
+		
+		
+		
+		/*if(base > 0 && altura > 0)
 		{
 			area = (base + altura) / 2;
 			System.out.println("--------> ÁREA = " + area);
@@ -31,7 +61,7 @@ public class Exercicio7 {
 		else 
 		{
 			System.out.println("Valor informado é inválido. Digite uma valor maior que 0.");
-		}
+		}*/
 		}
 
 }
