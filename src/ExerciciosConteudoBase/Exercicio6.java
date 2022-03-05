@@ -1,4 +1,4 @@
-package Exercicios;
+package ExerciciosConteudoBase;
 
 import java.util.Scanner;
 
@@ -50,6 +50,7 @@ public class Exercicio6 {
 			{
 			System.out.println("Menor que 5 anos. Idade inválida.");
 			}
+		leia.close();
 		}
 	}
 

@@ -1,4 +1,4 @@
-package Exercicios;
+package ExerciciosConteudoBase;
 
 import java.util.Scanner;
 
@@ -31,6 +31,7 @@ public class Lista2Exercicio6 {
 		}
 		while(numero != 0);
 		System.out.printf("RESULTADO %.2f", media);
+		leitor.close();
 	}
 
 }

@@ -1,4 +1,4 @@
-package Exercicios;
+package ExerciciosConteudoBase;
 
 import java.util.Scanner;
 
@@ -31,6 +31,7 @@ public class Exercicio1 {
 			System.out.println("Peso excedente: " + excessoPeso + " kg\nMULTA R$ " + multa);
 			System.out.println("----------------------------------");
 		}
+		leitor.close();
 	}
 
 }

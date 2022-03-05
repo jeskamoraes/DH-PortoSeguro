@@ -1,4 +1,4 @@
-package Exercicios;
+package ExerciciosConteudoBase;
 
 import java.util.Scanner;
 
@@ -43,7 +43,7 @@ public class Exercicio7 {
 			System.out.println("--------> ÁREA = " + area);
 
 		}
-
+		leia.close();
 	}
 
 }

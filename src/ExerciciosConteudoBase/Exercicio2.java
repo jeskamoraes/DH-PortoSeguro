@@ -1,4 +1,4 @@
-package Exercicios;
+package ExerciciosConteudoBase;
 
 import java.util.Scanner;
 
@@ -41,7 +41,7 @@ public class Exercicio2 {
 			System.out.println("----------------------------");
 			
 		}
-
+		leitor.close();
 	}
 
 }

@@ -1,4 +1,4 @@
-package Exercicios;
+package ExerciciosConteudoBase;
 
 import java.util.Scanner;
 
@@ -29,6 +29,7 @@ public class Exercicio8 {
 			N = 0;
 			System.out.println(N);
 		}
+		leia.close();
 	}
 
 }

@@ -1,4 +1,4 @@
-package Exercicios;
+package ExerciciosConteudoBase;
 
 import java.util.Scanner;
 
@@ -29,7 +29,7 @@ public class Lista2Exercicio2 {
 				System.out.println("-----------------------------------------");
 				System.out.println("QUANTIDE DE NÚMEROS PARES: " + par + " \nQUANTIDE DE NÚMEROS ÍMPARES: " + impar);
 				System.out.println("-----------------------------------------");
-
+				leitor.close();
 	}
 
 }

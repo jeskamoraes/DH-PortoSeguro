@@ -1,4 +1,4 @@
-package Exercicios;
+package ExerciciosConteudoBase;
 
 import java.util.Scanner;
 
@@ -51,6 +51,7 @@ public class Exercicio5 {
 		{
 			System.out.println("\n ----> Indústrias do 1º, 2º e 3º grupo devem ter suas atividades suspensas");
 		}
+		leitor.close();
 	}
 }
 

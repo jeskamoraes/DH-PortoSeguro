@@ -1,4 +1,4 @@
-package Exercicios;
+package ExerciciosConteudoBase;
 
 import java.util.Scanner;
 
@@ -42,7 +42,7 @@ public class Exercicio4 {
 				System.out.println("Impar\nPositivo");
 			}
 		}
-
+		leia.close();
 	}
 
 }

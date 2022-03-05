@@ -1,4 +1,4 @@
-package Exercicios;
+package ExerciciosConteudoBase;
 
 import java.util.Scanner;
 
@@ -50,7 +50,7 @@ public class Exercicio3 {
 			System.out.println(n4 + " ^ " + " 2 = " + quadradoN4);
 		}
 		
-		
+		leia.close();
 	}
 
 }

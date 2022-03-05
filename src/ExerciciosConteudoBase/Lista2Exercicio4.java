@@ -1,4 +1,4 @@
-package Exercicios;
+package ExerciciosConteudoBase;
 
 import java.util.Scanner;
 
@@ -92,7 +92,7 @@ public class Lista2Exercicio4 {
 				"\nNÚMERO DE OUTROS CALMOS " + somaCalmaOutros + 
 				"\nPESSOAS NERVOSAS COM MAIS DE 40 ANOS: " + somaNervosaMaior +
 				"\nPESSOAS CALMAS COM MENOS DE 18 ANOS " + somaCalmaMenor);
-		
+		leitor.close();
 	}
 
 }
