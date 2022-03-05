@@ -1,4 +1,4 @@
-package POO;
+package POOPolimorfismo;
 
 public class TesteTelefone {
 

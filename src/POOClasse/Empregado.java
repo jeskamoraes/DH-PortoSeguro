@@ -1,12 +1,14 @@
-package POO;
+package POOClasse;
 
 import java.text.NumberFormat;
 
 public class Empregado {
 
+	// ATRIBUTOS DA CLASSE
 	private String nome;
 	private double salario;
 	
+	// CONSTRUTOR
 	public Empregado (String n, double s) {
 		this.setNome(n);
 		this.setSalario(s);

@@ -1,4 +1,4 @@
-package POO;
+package POOClasse;
 
 public class TesteEmpregado {
 
